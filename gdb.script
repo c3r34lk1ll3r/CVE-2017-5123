@@ -1,0 +1,6 @@
+gef restore
+tmux-setup
+target remote :1234
+dir ./kernel_mirror
+source ./kernel_mirror/vmlinux-gdb.py
+
